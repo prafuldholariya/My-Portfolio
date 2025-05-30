@@ -1,0 +1,91 @@
+#about-container{
+    padding: 85px 5vw 5vh 5vw;
+    margin-top: 120px;
+}
+#about-container #about-container2{
+    min-width: 90vw;
+    min-height: 84vh;
+    border: 2px solid skyblue;
+    border-radius: 30px;
+    /* background-color: rgba(0,0,0,0.5); */
+}
+#about-container2 #about-pic{    
+    width: 280px;
+    height: 480px;
+}
+#about-container2 img{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 20px; */
+}
+#about-pic img{
+    border-radius: 20px;
+}
+#about-container2 #about-about{
+    max-width: 50%;
+    position: relative;
+}
+#about-about h1{
+    font-size: 27px;
+}
+#about-about p{
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+#about-about h4{
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 40px 25px 0;
+    padding: 0 3px 3px 3px;
+    cursor: pointer;
+    position: relative;
+    /* border-radius: 7px; */
+}
+#skills-btn{
+    border-bottom: 4px solid #FC5D6D;
+}
+#about-about #skills{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+#skills li, #edu li{
+    margin-bottom: 7px;
+    font-size: 17px;
+    color: rgb(65, 65, 65);
+}
+#skills li span{
+    margin-right: 20px;
+}
+#about-about #edu{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    opacity: 0;
+}
+@media (max-width: 1025px){
+    #about-container #about-container2{
+        flex-direction: column;
+    }
+    #about-container2 #about-pic{
+        margin: 40px 0;
+    }
+    #about-container2 #about-about{
+        max-width: 70vw;
+    }
+    #about-about h1{
+        text-align: center;
+    }
+}
+
+.tech-stack{
+    display: flex;
+    gap: 10px;
+}
+.tech-stack div{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}

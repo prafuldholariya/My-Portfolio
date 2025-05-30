@@ -1,0 +1,119 @@
+#contact-container{
+    padding:80px 5vw 5vh 5vw;
+    width: 100vw;
+}
+#contact-container #contact-container2{
+    width: 90vw;
+    /* height: 100vh; */
+    padding: 15vh 0;
+    border: 2px solid skyblue;
+    border-radius: 30px;
+}
+#contact-container2 #message-container{
+    /* background-color: #79e775; */
+    width: 50%;
+}
+#contact-container2 #message-container2{
+    width: 80%;
+    /* background-color: yellow; */
+}
+#message-container .message-input .input-style{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: var(--color);
+    background-color: var(--input-color);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#message-container textarea{
+    padding-bottom: 140px;
+    overflow: hidden;
+    resize: none;
+}
+.message-input h4{
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+#message-container #email{
+    width: 49%;
+    display: inline-block;
+}
+#message-container #contact{
+    width: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+#message-container button{
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#message-container button:hover{
+    background-color: #FC5D6D;
+}
+#contact-container2 #contact-data{
+    /* background-color: #8fe1e1; */
+    width: 50%;
+    position: relative;
+    padding: 20px;
+}
+#contact-data h4, h1{
+    padding-bottom: 10px;
+}
+#contact-data i{
+    margin: 10px 0;
+    font-size: 30px;
+    color: #FC5D6D;
+}
+#contact-data span{
+    font-size: 18px;
+    padding-bottom: 2px;
+    position: absolute;
+    margin: 12px 0 0 5px;
+    font-weight: bold;
+}
+#contact-data h1 span{
+    margin: 0;
+    position:static;
+    font-size: 30px;
+}
+#contact-data h4{
+    font-size: 20px;
+}
+@media(max-width: 800px){
+    #message-container #email{
+        width: 100%;
+    }
+    #message-container #contact{
+        width: 100%;
+    }
+    #contact-data h1, h4{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 600px){
+    #contact-container #contact-container2{
+        width: 90vw;
+        /* height: 100vh; */
+        padding: 5vh 0;
+    }
+    #contact-container #contact-container2{
+        flex-direction: column;
+    }
+    #contact-container2 #message-container{
+        width: 80vw;
+        margin-bottom: 20px;
+    }
+    #contact-container2 #contact-data{
+        width: 80vw;
+    }
+}
