@@ -108,7 +108,7 @@ function Contact({isDarkMode}) {
             onClick={(e) => e.preventDefault()}
           >
             <i className="bx bxl-gmail"></i>
-            <span>prafuldholariya1@gmail.com</span>
+            <span>prafuldholariya@gmail.com</span>
           </a>
         </div>
       </div>
